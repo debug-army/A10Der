@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by simba on 31/01/22, 11:34 PM
+  ~  Copyright (c) 2022 . All rights reserved.
+  ~  Last modified 31/01/22, 11:34 PM
+  -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_menu"
+    app:startDestination="@id/swipeFragment">
+
+    <fragment
+        android:id="@+id/swipeFragment"
+        android:name="com.debug_army.a10der.fragments.SwipeFragment"
+        android:label="fragment_swipe"
+        tools:layout="@layout/fragment_swipe" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.debug_army.a10der.fragments.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search"/>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.debug_army.a10der.fragments.ChatFragment"
+        android:label="ChatFragment"
+        tools:layout="@layout/fragment_chat"/>
+</navigation>
