@@ -46,4 +46,9 @@ dependencies {
 
     //Lottie
     implementation "com.airbnb.android:lottie:4.2.2"
+
+    //RecyclerView
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    //Card-swipe-library
+    implementation "com.yuyakaido.android:card-stack-view:2.3.4"
 }
