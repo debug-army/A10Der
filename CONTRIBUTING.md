@@ -58,6 +58,7 @@ git commit -m "Fixed Foo bug by changing bar"
 ```
 git push origin my-feature-branch
 ```
+Make sure you format your code as per the best practices for better and enhanced readability. You can use the default code formatter provided by Android Studio by pressing **Ctrl + Alt + L** on your windows device/**Alt + Shift + L** on your Linux device or **Command + Option + L** on your Mac.
 
 #### Make a Pull Request
 
