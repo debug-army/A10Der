@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~  Created by simba on 31/01/22, 11:51 PM
+  ~  Copyright (c) 2022 . All rights reserved.
+  ~  Last modified 31/01/22, 11:51 PM
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/swipeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/chat" />
+</menu>
