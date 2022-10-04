@@ -1,6 +1,11 @@
 # Sample README
 
 - A10Der Android Application
+This is an attendance tracking app designed to track attendance of users with the help of left/right swipe.
+
+Here is a picture to help you imagine what the app would look, feel and deliver like.
+
+<img alt="Sample App image" src="./img/sample.png">
 
 ### For first time Contributors
 
