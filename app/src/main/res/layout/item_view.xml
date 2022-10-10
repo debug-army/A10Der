@@ -1,36 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:layout_width="350dp"
-    android:layout_height="650dp">
+    android:padding="15dp">
 
-    <TextView
-        android:id="@+id/helloText"
-        android:textSize="40sp"
-
-        android:textColor="@android:color/white"
-        android:background="#E339"
-        android:gravity="center"
-        tools:text="Hello world"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/SwipeCardView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:cardCornerRadius="23dp">
 
-    <View
-        android:id="@+id/item_swipe_left_indicator"
-        android:alpha="0"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_margin="10dp"
-        android:background="#A5F" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <View
-        android:id="@+id/item_swipe_right_indicator"
-        android:alpha="0"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_margin="10dp"
-        android:layout_gravity="right"
-        android:background="#5AF" />
+            <ImageView
+                android:id="@+id/imageViewSwipe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/attendance_image" />
 
-</FrameLayout>
+
+            <TextView
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/helloText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#E339"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                tools:text="Hello world" />
+
+<!--            <View-->
+<!--                android:id="@+id/item_swipe_left_indicator"-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:alpha="0"-->
+<!--                android:background="#A5F" />-->
+
+<!--            <View-->
+<!--                android:id="@+id/item_swipe_right_indicator"-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:layout_gravity="right"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:alpha="0"-->
+<!--                android:background="#5AF" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
