@@ -29,6 +29,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    viewBinding {
+        enabled = true
+    }
     dataBinding {
         enabled = true
     }
@@ -49,6 +52,7 @@ dependencies {
 
     //Lottie
     implementation "com.airbnb.android:lottie:4.2.2"
+    implementation 'com.lorentzos.swipecards:library:1.0.9'
 
     //RecyclerView
     implementation "androidx.recyclerview:recyclerview:1.2.1"
