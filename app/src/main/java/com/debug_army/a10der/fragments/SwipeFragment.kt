@@ -56,7 +56,7 @@ class SwipeFragment : Fragment() {
 
             override fun onLeftCardExit(dataObject: Any) {
                 //Do something on the left!
-                //You userListso have access to the originuserList object.
+                //You also have access to the originuserList object.
                 //If you want to use it just cast it (String) dataObject
                 Toast.makeText(activity, "left", Toast.LENGTH_SHORT).show()
             }
@@ -66,7 +66,7 @@ class SwipeFragment : Fragment() {
             }
 
             override fun onAdapterAboutToEmpty(itemsInAdapter: Int) {
-                //for unlimited data
+//                for unlimited data
 //                userList.add("XML $i")
 //                arrayAdapter?.notifyDataSetChanged()
 //                Log.d("LIST", "notified")
