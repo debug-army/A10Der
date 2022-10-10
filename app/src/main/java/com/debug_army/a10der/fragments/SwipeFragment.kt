@@ -15,7 +15,7 @@ import com.lorentzos.flingswipe.SwipeFlingAdapterView
 
 class SwipeFragment : Fragment() {
 
-    lateinit var binding: FragmentSwipeBinding
+    private lateinit var binding: FragmentSwipeBinding
     private var userList = ArrayList<String>()
     private var arrayAdapter: ArrayAdapter<String>? = null
 //    private var i = 0
